@@ -780,10 +780,10 @@ int share_result(int result, int pooln, double sharediff, const char *reason)
 		:	(result ? "(" YAY ")" : "(" BOO ")");
 	}
 
-	applog(LOG_NOTICE, "accepted: %lu/%lu (%s), %s %s",
+	applog(LOG_NOTICE, "accepted: %lu/%lu (%s), %s %s%s%s,%ums",
 			p->accepted_count,
 			p->accepted_count + p->rejected_count,
-			suppl, s, flag);
+			suppl, s, flag, solved, CL_SIL,stratum.answer_msec);
 	if (reason) {
 		applog(LOG_WARNING, "reject reason: %s", reason);
 		if (!check_dups && strncasecmp(reason, "duplicate", 9) == 0) {
