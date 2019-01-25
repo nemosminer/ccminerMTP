@@ -159,7 +159,7 @@
 #define PACKAGE_NAME "ccminer"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "ccminer 1.1.10.1-mtp"
+#define PACKAGE_STRING "ccminer 1.1.10.2-mtp"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "ccminer"
@@ -168,7 +168,7 @@
 #define PACKAGE_URL "https://github.com/nemosminer/ccminerMTP"
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "1.1.10.1-mtp"
+#define PACKAGE_VERSION "1.1.10.2-mtp"
 
 /* If using the C implementation of alloca, define if you know the
    direction of stack growth for your system; otherwise it will be
