@@ -4940,7 +4940,7 @@ int main(int argc, char *argv[])
 	printf("  MTP algo based on krnlx kernel\n\n");
 	printf("BTC donation address: 1NENYmxwZGHsKFmyjTc5WferTn5VTFb7Ze (djm34)\n");
 	printf("ZCoin donation address: aChWVb8CpgajadpLmiwDZvZaKizQgHxfh5 (djm34)\n\n");
-    printf("compiled by nemosminer@github.com\n\n");
+        printf("compiled by nemosminer@github.com\n\n");
 
 	rpc_user = strdup("");
 	rpc_pass = strdup("");
