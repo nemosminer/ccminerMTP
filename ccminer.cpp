@@ -210,7 +210,7 @@ double opt_resume_temp = 0.;
 double opt_resume_diff = 0.;
 double opt_resume_rate = -1.;
 
-int opt_statsavg = 30;
+int opt_statsavg = 10;
 
 // strdup on char* to allow a common free() if used
 static char* opt_syslog_pfx = strdup(PROGRAM_NAME);
